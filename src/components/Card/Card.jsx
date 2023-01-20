@@ -10,7 +10,6 @@ export const Card = ({name, author, views, img, url, setChosenVideo, alt}) => {
           <Title>{name}</Title>
           <div>
             <Author>{author}</Author>
-            <Views>{views} views</Views>
           </div>
         </Right>
     </Container>

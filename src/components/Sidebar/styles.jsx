@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 display: flex;
-align-items: center;
-height: 650px;
-width: 360px;
+align-items: flex-start;
+height: 400px;
+width: 400px;
 overflow: hidden;
 border-radius: 5px;
 
@@ -36,10 +36,11 @@ border-radius: 5px;
 export const Sidebarr = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
   height: 100%;
+  padding-top: 5%;
   margin-inline: auto;    
   background: ${props => props.theme.colors.primary};
 
@@ -54,7 +55,6 @@ export const Filter = styled.div`
   height: 30px;
   width: 100%;
   display: flex;
-  align-items: flex-end;
   justify-content: space-evenly;
 
   @media (max-width: 1100px){}
@@ -76,7 +76,7 @@ export const Button = styled.button`
   font-size: 14px;
   font-weight: 700;
   outline-style: none;
-  width: 60px;
+  width: 80px;
   height: 25px;
   position: relative;
 

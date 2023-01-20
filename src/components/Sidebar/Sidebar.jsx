@@ -5,7 +5,7 @@ import { BsSunFill} from 'react-icons/bs'
 import { IoMdMoon } from 'react-icons/io'
 
 export const Sidebar = ({setChosenVideo, toggleTheme, theme, data }) => {
-  const [filter, setFilter] = useState('kids');
+  const [filter, setFilter] = useState('intro');
   const [filteredVids, setFilteredVids] = useState([]);
 
 
@@ -22,15 +22,15 @@ export const Sidebar = ({setChosenVideo, toggleTheme, theme, data }) => {
     <Container >
         <Sidebarr>
           <Filter> 
-            <Button onClick={()=>setFilter('kids')}>Movies</Button>
-            <LargeButton onClick={()=>setFilter('office')}>The Office</LargeButton>
-            <Button onClick={()=>setFilter('cats')}>Cats</Button>
-            <Button onClick={()=>setFilter('dogs')}>Dogs</Button>
+            <Button onClick={()=>setFilter('intro')}>Introdução</Button>
+            <LargeButton onClick={()=>setFilter('verbs')}>Verbs</LargeButton>
+            <Button onClick={()=>setFilter('new-words')}>New Words</Button>
+            <Button onClick={()=>setFilter('grammar')}>Expressions</Button>
             {/*<Icon onClick={toggleTheme}>{theme.title === 'light' ? <IoMdMoon/> : <BsSunFill/>}</Icon>*/}
           </Filter>
 
-       {filteredVids.slice(0, 5).map(item=><Card theme={theme} setChosenVideo={setChosenVideo} url={item.url}
-        key={item.id} name={item.name} author={item.author} views={item.views} img={item.img} alt={item.alt}/>       
+       {filteredVids.slice(0, 5).map(item=><Card  setChosenVideo={setChosenVideo} url={item.url}
+        key={item.id} name={item.name} author={item.author} img={item.img} alt={item.alt}/>       
        )}
  
       </Sidebarr>
