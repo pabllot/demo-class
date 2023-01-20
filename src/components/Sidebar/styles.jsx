@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
 display: flex;
 align-items: flex-start;
-height: 400px;
+height: 450px;
 width: 400px;
 overflow: hidden;
 border-radius: 5px;
@@ -79,6 +79,8 @@ export const Button = styled.button`
   width: 80px;
   height: 25px;
   position: relative;
+  box-shadow: 0px 1px 10px 0px #91684A;
+
 
 
   &:before{
@@ -156,6 +158,8 @@ export const LargeButton = styled.button`
   width: 70px;
   height: 25px;
   position: relative;
+    box-shadow: 0px 1px 10px 0px #91684A;
+
 
   &:before{
     content: '';

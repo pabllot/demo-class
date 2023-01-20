@@ -3,11 +3,11 @@ import styled from "styled-components";
 export const Container = styled.div`
 display: flex;
 align-items: flex-start;
-height: 160px;
+height: 170px;
 width: 400px;
 overflow: hidden;
 border-radius: 5px;
-background-color: #0A2647;
+background-color: #EAAC7F;
 
 @media (max-width: 1100px) {
   width: 360px;
@@ -32,4 +32,16 @@ background-color: #0A2647;
   border-radius: 0px;
   height: 70%;
 }
+`
+
+export const Wrapper = styled.div`
+height: 100%;
+width: 100%;
+display:flex;
+align-items: center;
+justify-content: center;
+`
+export const Title = styled.h1`
+  font-size: 2rem;
+  color: white;
 `

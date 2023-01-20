@@ -1,9 +1,15 @@
 import React from 'react'
-import { Container } from './styles'
+import { Container, Title, Wrapper } from './styles'
 
 const Hero = () => {
   return (
-    <Container>Hero</Container>
+    <Container>
+      <Wrapper>
+        <Title>
+          inglescompablot
+        </Title>
+      </Wrapper>
+    </Container>
   )
 }
 

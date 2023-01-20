@@ -56,7 +56,7 @@ export const VideoContainer = styled.div`
   justify-content: center;
   margin-inline: auto;
   overflow: hidden;
-  background-color: #0A2647;
+  background-color: #000;
 
   &:hover ${VideoControlsContainer}{
     opacity: 1;
