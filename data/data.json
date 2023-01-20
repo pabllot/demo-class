@@ -1,14 +1,14 @@
 { "vids" : [
-    {"id": 1, "name":  "Introdução", "author": "descrição da etapa", "img": "/assets/pics/office3.png", "alt": "thumbnail", "genre": "intro", "url": "/assets/vids/office3.mp4"},
-    {"id": 2, "name": "Verbos", "author": "descrição da etapa", "img": "/assets/pics/office1.png", "alt": "thumbnail", "genre": "verbs", "url": "/assets/vids/office1.mp4"},
-    {"id": 3, "name":  "Exercício Verbos", "author": "descrição da etapa", "img": "/assets/pics/office2.png", "alt": "thumbnail", "genre": "verbs", "url": "/assets/vids/office2.mp4" },
-    {"id": 4, "name":  "Respostas exercício verbos", "author": "descrição da etapa", "img": "/assets/pics/office4.png", "alt": "thumbnail", "genre": "verbs", "url": "/assets/vids/office4.mp4"},
-    {"id": 5, "name":  "Video de abertura The Office", "author": "descrição da etapa", "img": "/assets/pics/office5.png", "alt": "thumbnail", "genre": "new-words", "url": "/assets/vids/office5.mp4"},
-    {"id": 6, "name":  "Gato preso tentando se libertar", "author": "descrição da etapa", "img": "/assets/pics/cats1.png", "alt": "thumbnail", "genre": "new-words", "url": "/assets/vids/cats1.mp4"},
-    {"id": 7, "name":  "Brigando com o reflexo no espelho", "author": "descrição da etapa", "img": "/assets/pics/cats2.png", "alt": "thumbnail", "genre": "new-words", "url": "/assets/vids/cats2.mp4"},
-    {"id": 8, "name":  "Gato com medo de uma flor", "author": "descrição da etapa", "img": "/assets/pics/cats3.png", "alt": "thumbnail", "genre": "grammar", "url": "/assets/vids/cats3.mp4"},
-    {"id": 9, "name":  "Gato com medo de pular", "author": "descrição da etapa", "img": "/assets/pics/cats4.png", "alt": "thumbnail", "genre": "grammar", "url": "/assets/vids/cats4.mp4"},
-    {"id": 10, "name":  "Hora do banho do gato", "author": "descrição da etapa", "img": "/assets/pics/cats5.png", "alt": "thumbnail", "genre": "grammar", "url": "/assets/vids/cats5.mp4"}
+    {"id": 1, "name":  "Introdução", "author": "descrição da etapa", "img": "/assets/pics/thumb.jpg", "alt": "thumbnail", "genre": "intro", "url": "/assets/vids/class.mp4"},
+    {"id": 2, "name": "Verbos", "author": "descrição da etapa", "img": "/assets/pics/thumb.jpg", "alt": "thumbnail", "genre": "verbs", "url": "/assets/vids/class.mp4"},
+    {"id": 3, "name":  "Exercício Verbos", "author": "descrição da etapa", "img": "/assets/pics/thumb.jpg", "alt": "thumbnail", "genre": "verbs", "url": "/assets/vids/class.mp4" },
+    {"id": 4, "name":  "Respostas exercício verbos", "author": "descrição da etapa", "img": "/assets/pics/thumb.jpg", "alt": "thumbnail", "genre": "verbs", "url": "/assets/vids/class.mp4"},
+    {"id": 5, "name":  "Video de abertura The Office", "author": "descrição da etapa", "img": "/assets/pics/thumb.jpg", "alt": "thumbnail", "genre": "new-words", "url": "/assets/vids/class.mp4"},
+    {"id": 6, "name":  "Gato preso tentando se libertar", "author": "descrição da etapa", "img": "/assets/pics/thumb.jpg", "alt": "thumbnail", "genre": "new-words", "url": "/assets/vids/class.mp4"},
+    {"id": 7, "name":  "Brigando com o reflexo no espelho", "author": "descrição da etapa", "img": "/assets/pics/thumb.jpg", "alt": "thumbnail", "genre": "new-words", "url": "/assets/vids/class.mp4"},
+    {"id": 8, "name":  "Gato com medo de uma flor", "author": "descrição da etapa", "img": "/assets/pics/thumb.jpg", "alt": "thumbnail", "genre": "grammar", "url": "/assets/vids/class.mp4"},
+    {"id": 9, "name":  "Gato com medo de pular", "author": "descrição da etapa", "img": "/assets/pics/thumb.jpg", "alt": "thumbnail", "genre": "grammar", "url": "/assets/vids/class.mp4"},
+    {"id": 10, "name":  "Hora do banho do gato", "author": "descrição da etapa", "img": "/assets/pics/thumb.jpg", "alt": "thumbnail", "genre": "grammar", "url": "/assets/vids/class.mp4"}
     ]
 
 }

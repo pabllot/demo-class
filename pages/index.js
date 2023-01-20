@@ -8,6 +8,7 @@ import GlobalStyle from '../styles/global'
 import dark from '../styles/themes/dark'
 import light from '../styles/themes/light'
 import styles from '../styles/Home.module.css'
+import Hero from '../src/components/Hero/Hero'
 
 export default function Home({data}) {
   const [isTheaterMode, setIsTheaterMode] = useState(false);
@@ -27,7 +28,15 @@ export default function Home({data}) {
       <GlobalStyle />
       <main className={styles.main}>
          <Video isTheaterMode={isTheaterMode} setIsTheaterMode={setIsTheaterMode} chosenVideo={chosenVideo}/>
-         {!isTheaterMode && <Sidebar data={data} setChosenVideo={setChosenVideo} toggleTheme={toggleTheme} theme={theme} /> }
+
+         {
+         !isTheaterMode && 
+         <div className={styles.right}>
+          <Hero />
+          <Sidebar data={data} setChosenVideo={setChosenVideo} toggleTheme={toggleTheme} theme={theme} /> 
+         </div>
+         }
+
       </main>
     </ThemeProvider>
   )
